@@ -2,8 +2,9 @@
 
 *{
     margin: 0px;
-    padding: 0px 5px;
+    padding: 0px;
     box-sizing: border-box;
+    font-family: Rubik, sans-serif;
 }
 
 :root{
@@ -14,9 +15,7 @@
 }
 
 body{
-    padding: 40px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
+    padding: 0px;
 }
 
 body p{
@@ -28,7 +27,7 @@ nav{
     align-items: center;
     justify-content:space-between;
     gap: 20px;
-    padding: 10px 20px 20px 0;
+    padding: 10px 20px 20px;
 }
 
 nav button{
@@ -69,6 +68,7 @@ a{
     justify-content: center;
     gap: 30px;
     margin-top: 40px;
+    padding: 40px;
 }
 
 main h1{
@@ -113,6 +113,7 @@ main p{
 
 .section2 {
     text-align: center;
+    padding: 40px;
 }
 
 .section2 h1, .section2 p{
@@ -170,6 +171,7 @@ hr{
     width: 50%;
     margin: 150px auto 10px;
     text-align: center;
+    padding: 40px;
 
 }
 
@@ -181,6 +183,10 @@ hr{
 
 .section3 p{
     font-size: 1rem;
+}
+
+.section3{
+    padding: 40px;
 }
 
 .sec3div2{
@@ -276,6 +282,7 @@ hr{
     padding: 50px;
     color: white;
     margin-top: 100px;
+    padding: 40px;
 } 
 
 .section4 p{
@@ -320,7 +327,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
 }
 
 footer a{
